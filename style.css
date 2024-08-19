@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet');
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-family: League Spartan, sans-serif;
+    background-image: url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bundle-desc-rev {
+    display: flex;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    height: 300px;
+    width: 500px;
+}
+
+.description h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 3.1rem;
+}
+
+.description p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    color: hsl(303, 10%, 53%);
+}
+
+.review-star {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+#ss1 {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#ss3 {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.star-single {
+    display: flex;
+    width: 80%;
+    height: 55px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.star-single p {
+    font-weight: 700;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+}
+
+.bundle-star-five {
+    aspect-ratio: 5;
+    background-image: url("images/icon-star.svg");
+    background-size: 17%;
+    background-repeat: space;
+    height: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+.collection-reviews {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-single {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    height: 55%;
+    width: 400px;
+    margin: auto 20px;
+    border-radius: 5px;
+    padding: 15px 25px 25px;
+}
+
+#rs1 {
+    margin-left: 0;
+    margin-top: 35px;
+    margin-bottom: auto;
+}
+
+#rs3 {
+    margin-bottom: 35px;
+    margin-top: auto;
+}
+
+.review-single > p {
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.info-person {
+    margin-top: 10px;
+    display: flex;
+}
+
+.info-person img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+
+.bundle-nmv {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.name-person {
+    color: white;
+    margin-bottom: 0;
+}
+
+.verified-buyer {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1250px) {
+    html {
+        zoom: 0.87;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    html {
+        zoom: 0.8;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        zoom: 0.6;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    html {
+        zoom: 0.53;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    html {
+        zoom: 1;
+    }
+
+    body {
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("images/bg-pattern-bottom-mobile.svg");
+    }
+
+    .bundle-desc-rev {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .bundle-desc-rev {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description {
+        height: auto;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description p {
+        font-size: 1.5rem;
+    }
+
+    .review-star {
+        width: 90%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .star-single {
+        min-height: 55px;
+        width: 100%;
+    }
+
+    .star-single p {
+        font-size: min(1em, 7cqi)
+    }
+
+    #ss1 {
+        margin-left: auto;
+    }
+
+    #ss3 {
+        margin-right: auto;
+    }
+
+    .collection-reviews {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .review-single {
+        margin: 20px auto;
+        width: auto;
+    }
+
+    #rs1 {
+        margin-left: auto;
+    }
+
+    .attribution {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
